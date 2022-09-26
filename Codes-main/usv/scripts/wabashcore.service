@@ -1,0 +1,19 @@
+[Unit]
+Description=Wabash roscore service
+After=NetworkManager.service time-sync.target
+
+[Service]
+User=junhan
+# Start roscore as a fork and then wait for the tcp port to be opened
+# —————————————————————-
+# Source all the environment variables, start roscore in a fork
+# Since the service type is forking, systemd doesn’t mark it as
+# ‘started’ until the original process exits, so we have the
+# non-forked shell wait until it can connect to the tcp opened by
+# roscore, and then exit, preventing conflicts with dependant services
+ExecStart=/home/junhan/wabash.sh
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
