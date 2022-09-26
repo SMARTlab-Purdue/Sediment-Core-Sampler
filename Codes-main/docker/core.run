@@ -1,0 +1,10 @@
+#!/bin/bash
+
+docker rm -f ros
+
+docker run -d \
+  --name ros \
+  --restart always \
+  --network host \
+  wabash_ros \
+  roscore
