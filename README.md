@@ -19,7 +19,8 @@ Sediment has a significant impact on social, economic, and environmental systems
 | Sparkfun Compass - HMC6352                     | $17.00    |
 | Sparkfun GPS - EM506                           | $40.00    |
 | USB camera ELP-USBFHD01M-L21                   | $46.00    |
-| **USV Cost**                          | **$2,785.00**   |
+| Miscellaneous                   | ~$115.00    |
+| **USV Cost**                          | **$2,900.00**   |
 
 | USS Component                                          | Price (USD) |
 | ------------------------------------------------------ | ----------- |
@@ -35,6 +36,7 @@ Sediment has a significant impact on social, economic, and environmental systems
 | 3 Linear thearded rods 3313N19                         | $53.00      |
 | 4 550ml syringes KIK-PLA-SYR-011                       | $56.00      |
 | PVC pipes                                              | $15.00      |
-| **USS Total Cost**                                         | **$1,646.00**   |
-| **Platform Total Cost**                                    | **$5,088.00**   |
+| Miscellaneous                   | ~$154.00    |
+| **USS Total Cost**                                         | **$1,800.00**   |
+| **Platform Total Cost**                                    | **$4,700.00**   |
 
